@@ -7,15 +7,15 @@ public class Programa01{
         int valor;
 
         //Declaração de variáveis
-        int num1, num2, num3;
+        int num1 = 8;
 
         //Declarando e inicializando algumas variáveis
-        int num4, num5 = 4, num6 = 7, num8; //Nesse casp, o num5 = 4 está declarando e inicializando
+        int num4 = 3, num5 = 4, num6 = 7, num8; //Nesse caso, o num5 = 4 está declarando e inicializando
 
         char caractere;
         float preco;
 
         float _valor = 34.2f; // Por padrão, os valores de ponto flutuante são double no Java
-        
+
     }
 }
