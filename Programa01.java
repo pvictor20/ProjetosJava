@@ -4,18 +4,18 @@ public class Programa01{
 
     public static void main(String[] args) {
         //Declaração de variável
-        int valor;
+       // int valor = 10;
 
         //Declaração de variáveis
-        int num1 = 8;
+        //int num1 = 8;
 
         //Declarando e inicializando algumas variáveis
-        int num4 = 3, num5 = 4, num6 = 7, num8; //Nesse caso, o num5 = 4 está declarando e inicializando
+        //int num4 = 3, num5 = 4, num6 = 7, num8; //Nesse caso, o num5 = 4 está declarando e inicializando
 
-        char caractere;
-        float preco;
+        //char caractere;
+       // float preco;
 
-        float _valor = 34.2f; // Por padrão, os valores de ponto flutuante são double no Java
+        //float _valor = 34.2f; // Por padrão, os valores de ponto flutuante são double no Java
 
     }
 }
