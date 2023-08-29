@@ -10,7 +10,7 @@ public class Exercicio02 {
         
         System.out.println("Parabens o numero  " + numero + " é inteiro");
 
-       
+       teclado.close();
 
 
     }
