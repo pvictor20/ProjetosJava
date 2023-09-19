@@ -18,11 +18,16 @@ public class Função2 {
         res = soma(valor1, valor2);
 
         System.out.println("O resultado é " + res);
+        System.out.println(mensagem());
 
         sc.close();
     }
 
     static int soma(int v1, int v2){
         return v1 + v2; 
+    }
+
+    static String mensagem() {
+        return "Olá usuário, sua soma está sendo indicada acima";
     }
 }
