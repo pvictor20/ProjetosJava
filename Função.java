@@ -16,7 +16,11 @@ public class Função {
         System.out.println("Informa a quantida de frutas para cadastrar: ");
         quantidadeFruta = Integer.parseInt(sc.nextLine());
 
-        sc.close();
+        //Precisa solicitar as outras funções na MAIN para poder funcionar
+        cadastrar_dados(quantidadeFruta);
+        mostrar_dados(quantidadeFruta);
+
+        sc.close(); 
     }
        /*
          * Uma função deve ter:
